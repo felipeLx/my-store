@@ -1,0 +1,37 @@
+{
+  "name": "y-store",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.15.0",
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/provider-email-sendgrid": "^4.15.0",
+    "@strapi/provider-upload-cloudinary": "^4.15.0",
+    "@strapi/strapi": "4.15.0",
+    "better-sqlite3": "8.6.0",
+    "strapi-plugin-import-export-entries": "^1.21.1",
+    "strapi-plugin-rest-cache": "^4.2.8",
+    "strapi-plugin-sitemap": "^3.0.6",
+    "strapi-plugin-vercel-deploy": "^1.4.0",
+    "strapi-stripe": "^3.4.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "099212df-e7b9-46cf-87dd-381bd7eaca15"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
